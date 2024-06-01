@@ -1,0 +1,67 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: bold;
+  text-decoration: none;
+  background: #dde1e7;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+
+}
+.container {
+  border-radius: 20px;
+  padding: 30px 50px;
+  box-shadow: inset -5px -5px 9px rgba(255,255,255,0.45), inset 5px 5px 9px rgba(94,104,121,0.3);
+
+}
+
+.title {
+  font-size: 2rem;
+  text-shadow: 2px 2px rgb(74, 73, 73);
+  margin-bottom: 35px;
+}
+form {
+  display: flex;
+  flex-direction: column;
+  width: 270px;
+}
+.fName, .LName, .contact, .email, .password {
+  margin-top: 0.4rem;
+  margin-bottom: 1rem;
+  padding: 4px 0 4px 0;
+  border: 2px solid black;
+  text-align: center;
+}
+
+.fName::placeholder, .LName::placeholder, .contact::placeholder, .email::placeholder, .password::placeholder {
+  padding-left: 20px;
+  text-align: left;
+  
+}
+
+.submit {
+  border: none;
+  margin-top: 1rem;
+  cursor: pointer;
+  color: white;
+  background-color: #42b72a;
+  padding: 6px 0 6px;
+  font-size: 1rem;
+  border-radius: 5px;
+}
+
+.crateFooter {
+  margin-top: 20px;
+  font-size: 0.8rem;
+  text-align: center;
+}
+
+
